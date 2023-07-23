@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="http://use.fontawesome.com/releases/v5.4.1/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Home</title>
+  </head>
+
+  <header class="header">
+    <nav class="navbar">
+      <a href="index.html" class="nav-logo">Jake Johnson's Portfolio</a>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link-active">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="project.html" class="nav-link">Project</a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a href="https://github.com/jjNotice" class="nav-link" target="_blank"
+            >GitHub</a
+          >
+        </li>
+        <li>
+          <img src="img/moon.png" id="icon" alt="" onclick="toggleDarkMode()" />
+        </li>
+      </ul>
+      <!-- Responsive Menu Button (Hamburger) -->
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+  <body>
+    <div class="banner">
+      <div class="container">
+        <div class="banner-title">
+          <h1>
+            <span>Jake's</span>
+            <span>Portfolio</span>
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer-container">
+      <div class="social-media-links">
+        <a
+          href="https://www.linkedin.com/in/jake-johnson-3b24aa139/"
+          target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/jjNotice" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+      </div>
+
+      <div class="copyright">By Jake Johnson</div>
+    </footer>
+
+    <button onclick="topFunction()" id="gotothetop">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/gototopscripit.js"></script>
+  </body>
+</html>
